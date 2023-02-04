@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.App button {
+  margin: 10px;
+}
+
+.rong {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}

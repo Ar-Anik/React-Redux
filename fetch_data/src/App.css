@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+section {
+  position: absolute;
+  display: grid;
+}
+
+.rong {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  margin: 10px;
+}
