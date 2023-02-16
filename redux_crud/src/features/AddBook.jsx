@@ -13,10 +13,10 @@ const AddBook = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const book = books.slice(-1);
-    const bookid = book.id + 1;
+    const book = books[books.length - 1];
+    const id = book.id + 1;
 
-    dispatch(addBook({ bookid, title, author }));
+    dispatch(addBook({ id, title, author }));
     navigate("/", { replace: true });
   };
 

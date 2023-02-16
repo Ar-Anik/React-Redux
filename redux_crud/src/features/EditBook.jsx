@@ -13,7 +13,8 @@ const EditBook = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    dispatch(updateBook(location.state.id, author, title));
+    const id = location.state.id;
+    dispatch(updateBook({ id, author, title }));
     navigate("/", { replace: true });
   };
 
